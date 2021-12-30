@@ -72,7 +72,8 @@ textarea {
 }
 .time{
   border-top: 1rem white solid;
-  width: 15vw;
+  width: 10vw;
+  text-align: right;
 }
 
 .text{
@@ -100,9 +101,10 @@ textarea {
  
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  background-color: #06afd58e;
 }
 
 
