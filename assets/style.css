@@ -1,10 +1,10 @@
-/* body {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
   width: 100vw;
   height: 100vh;
-} */
+}
 
 textarea {
   background: transparent;
@@ -60,15 +60,49 @@ textarea {
   color: white;
 }
 
+
+.table td{
+  line-height: 3rem;
+  padding: 0rem;
+  border-top: 1px white solid;
+}
+.table th{
+  border-top: 3px #a2a3a5 solid;
+  border-right: 3px #a2a3a5 solid;
+}
+.time{
+  border-top: 1rem white solid;
+  width: 15vw;
+}
+
+.text{
+  border: 1px white solid;
+ 
+  width: 60vw;
+  background-color:#d3d3d3 ;
+}
+.save{
+  border: 1px white solid;
+}
+
 .saveBtn {
-  border-left: 1px solid black;
+  display: block;
+  width: 100%;
+  background-color: #06aed5;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-left: 2px solid black;
+  font-size: 2rem;
+ 
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+
