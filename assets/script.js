@@ -19,7 +19,7 @@ const range = (start, end, step) => {
   );
 };
 
-const hoursOfTheDay = Array.from(new Array(12)).map((v, i) => {
+const hoursOfTheDay = Array.from(new Array(24)).map((v, i) => {
   const text = moment().hour(i).format("h:00 A");
   const hour = moment().hour(i);
   return { text, hour };
