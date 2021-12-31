@@ -24,27 +24,6 @@ textarea {
   padding-bottom: 10px;
 }
 
-.description {
-  white-space: pre-wrap;
-}
-
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -58,32 +37,6 @@ textarea {
 .future {
   background-color: #77dd77;
   color: white;
-}
-
-
-.table td{
-  line-height: 3rem;
-  padding: 0rem;
-  border-top: 1px white solid;
-}
-.table th{
-  border-top: 3px #a2a3a5 solid;
-  border-right: 3px #a2a3a5 solid;
-}
-.time{
-  border-top: 1rem white solid;
-  width: 10vw;
-  text-align: right;
-}
-
-.text{
-  border: 1px white solid;
- 
-  width: 60vw;
-  background-color:#d3d3d3 ;
-}
-.save{
-  border: 1px white solid;
 }
 
 .saveBtn {

@@ -27,10 +27,10 @@ const hoursOfTheDay = Array.from(new Array(24)).map((v, i) => {
 
 function color(time) {
   return time.text === currentTime.text
-    ? "bg-red-300"
+    ? "present"
     : time.hour < now
-    ? "bg-gray-300"
-    : "bg-green-200";
+    ? "past"
+    : "future";
 }
 
 hoursOfTheDay.forEach((hr) => {
